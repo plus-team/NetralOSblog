@@ -1,5 +1,5 @@
 export const getGlobalData = () => {
-  const name = process.env.BLOG_NAME
+  const name = process.env.NetralOS
     ? decodeURI(process.env.BLOG_NAME)
     : 'Jay Doe';
   const blogTitle = process.env.BLOG_TITLE
